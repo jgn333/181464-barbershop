@@ -8,22 +8,27 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Информация</a>
+		<div class="logo-small-block">
+          <a class="logo-small" href="#">
+			<img class="img-logo-small" src="#" alt='Барбершоп "Бородинский"'>
+		  </a>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Информация</a>
             </li>
-            <li>
-              <a href="#">Новости</a>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Новости</a>
             </li>
-            <li>
-              <a href="#">Прайс-лист</a>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Прайс-лист</a>
             </li>
-            <li>
-              <a href="#">Магазин</a>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Магазин</a>
             </li>
-            <li>
-              <a href="#">Контакты</a>
+            <li class="main-nav-item">
+              <a class="main-nav-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -33,16 +38,18 @@
       </div>
     </header>
     <main class="container">
-      <div class="breadcrumb">
-        <h2>Средства для ухода</h2>
-        <ul>
-          <li>
-            <a href="#">Главная</a>
+      <div class="header2">
+		<h2>Средства для ухода</h2>
+	  </div>
+	  <div class="breadcrumb">
+        <ul class="breadcrumb-list">
+          <li class="breadcrumb-item">
+            <a class="breadcrumb-link" href="#">Главная</a>
           </li>
-          <li>
-            <a href="#">Магазин</a>
+          <li class="breadcrumb-item">
+            <a class="breadcrumb-link" href="#">Магазин</a>
           </li>
-          <li>
+          <li class="breadcrumb-item">
             Средства для ухода
           </li>
         </ul>
@@ -80,48 +87,62 @@
           <input type="submit" value="Показать">
         </form>
       </div>
-      <div class="catalog-items">
-        <ul>
-          <li>
-            <img src="#" alt="Набор для путешествий 'Baxter of California'">
+      <div class="catalog">
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <img src="img/item1.jpg" width="220" height="165" alt="Набор для путешествий 'Baxter of California'">
             <p>Набор для путешествий "Baxter of California"</p>
-            <span class="item-price">2 900 руб.</span>
-            <a class="btn-buy">Купить</a>
+            <div class="catalog-buy">
+			  <span class="item-price">2 900 руб.</span>
+              <a class="btn-buy">Купить</a>
+			</div>
           </li>
-          <li>
-            <img src="#" alt="Увлажняющий кондиционер 'Baxter of California'">
+          <li class="catalog-item">
+            <img src="img/item2.jpg" width="220" height="165" alt="Увлажняющий кондиционер 'Baxter of California'">
             <p>Увлажняющий кондиционер "Baxter of California"</p>
-            <span class="item-price">750 руб.</span>
-            <a class="btn-buy">Купить</a>
+			<div class="catalog-buy">
+              <span class="item-price">750 руб.</span>
+              <a class="btn-buy">Купить</a>
+			</div>
           </li>
-          <li>
-            <img src="#" alt="Гель для волос 'Sauvecito'">
+          <li class="catalog-item">
+            <img src="img/item3.jpg" width="220" height="165" alt="Гель для волос 'Sauvecito'">
             <p>Гель для волос "Sauvecito"</p>
-            <span class="item-price">290 руб.</span>
-            <a class="btn-buy">Купить</a>
+			<div class="catalog-buy">
+              <span class="item-price">290 руб.</span>
+              <a class="btn-buy">Купить</a>
+			</div>
           </li>
-          <li>
-            <img src="#" alt="Глина для укладки волос 'American crew'">
+          <li class="catalog-item">
+            <img src="img/item4.jpg" width="220" height="165" alt="Глина для укладки волос 'American crew'">
             <p>Глина для укладки волос "American crew"</p>
-            <span class="item-price">500 руб.</span>
-            <a class="btn-buy">Купить</a>
+			<div class="catalog-buy">
+              <span class="item-price">500 руб.</span>
+              <a class="btn-buy">Купить</a>
+			</div>
           </li>
-          <li>
-            <img src="#" alt="Гель для волос 'American crew'">
+          <li class="catalog-item">
+            <img src="img/item5.jpg" width="220" height="165" alt="Гель для волос 'American crew'">
             <p>Гель для волос "American crew"</p>
-            <span class="item-price">300 руб.</span>
-            <a class="btn-buy">Купить</a>
+			<div class="catalog-buy">
+              <span class="item-price">300 руб.</span>
+              <a class="btn-buy">Купить</a>
+			</div>
           </li>
-          <li>
-            <img src="#" alt="Набор для бритья 'Baxter of California'">
+          <li class="catalog-item">
+            <img src="img/item6.jpg" width="220" height="165" alt="Набор для бритья 'Baxter of California'">
             <p>Набор для бритья "Baxter of California"</p>
-            <span class="item-price">3 900 руб.</span>
-            <a class="btn-buy">Купить</a>
+			<div class="catalog-buy">
+              <span class="item-price">3 900 руб.</span>
+              <a class="btn-buy">Купить</a>
+			</div>
           </li>
         </ul>
         <ul class="item-paginator">
           <li><a href="#">1</a></li>
-          <li>2</li>
+          <li>
+			<span class="number-page">2</span>
+		  </li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
         </ul>
